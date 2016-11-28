@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "GIBaseNavController.h"
+#import "GIAndroidController.h"
+#import "GIIOSController.h"
+#import "GIWebController.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +20,33 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [self setTabAndWindow];
+    
     return YES;
+}
+
+- (void)setTabAndWindow {
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    GIAndroidController *android = [GIAndroidController new];
+    GIBaseNavController *nav1 = [[GIBaseNavController alloc] initWithRootViewController:android];
+    nav1.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Android" image:[UIImage imageNamed:@"android"] tag:0];
+    
+    GIIOSController *ios = [GIIOSController new];
+    GIBaseNavController *nav2 = [[GIBaseNavController alloc] initWithRootViewController:ios];
+    nav2.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"iOS" image:[UIImage imageNamed:@"ios"] tag:1];
+    
+    GIWebController *web = [GIWebController new];
+    GIBaseNavController *nav3 = [[GIBaseNavController alloc] initWithRootViewController:web];
+    nav3.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Web" image:[UIImage imageNamed:@"web"] tag:2];
+    
+    UITabBarController *tab = [[UITabBarController alloc] init];
+    tab.viewControllers = @[nav1, nav2, nav3];
+    
+    
+    self.window.rootViewController = tab;
+    [self.window makeKeyAndVisible];
 }
 
 

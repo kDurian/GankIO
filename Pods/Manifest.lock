@@ -20,6 +20,7 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - PureLayout (3.0.2)
   - SDCycleScrollView (1.65):
     - SDWebImage (~> 3.7)
   - SDWebImage (3.8.2):
@@ -36,12 +37,14 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 2.6)
+  - PureLayout
   - SDCycleScrollView (~> 1.64)
   - UITableView+FDTemplateLayoutCell (~> 1.4)
   - YYWebImage
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
   SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
@@ -49,6 +52,6 @@ SPEC CHECKSUMS:
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: d798af5fced4db2ef1386ab8d9af525f33561148
+PODFILE CHECKSUM: 32d8417e1135efe5c94f78f198a375481fdec6c4
 
 COCOAPODS: 1.0.0

@@ -8,44 +8,113 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>0</integer>
 		</dict>
 		<key>Pods-GankIO.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>PureLayout.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>SDCycleScrollView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 		<key>UITableView+FDTemplateLayoutCell.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 		<key>YYCache.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 		<key>YYImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>7</integer>
 		</dict>
 		<key>YYWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>8</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>2F32391F87522D5C53CB7CAF45D428C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3C784F3CD9161651EE7CC7345927D6D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>410B25DF16EA5C5B3E2698F74F9625FB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>626D4CE95BE9D2A0BA16F0B8128CA298</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>780BD3563F45D05AD1BE24D2D2C8BA44</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BDC86FB48ACCD523FCAB1290AF1E706C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BFCE911F43C7C6099B91D354B56BD9AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CBAF49450FE03E66732E8945D2655987</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F49602A80084FBBCFC695BC9AFC69D7B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>
