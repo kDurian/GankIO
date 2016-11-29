@@ -10,9 +10,9 @@
 #define Config_h
 
 // Hex Value
-#define HEX_NAVBAR 516994
-#define HEX_TABBAR 516994
-#define HEX_STATUSBAR 3C5685
+#define HEX_NAVBAR 0x4D6992
+#define HEX_TABBAR 0x4D6992
+#define HEX_STATUSBAR 0x3C5685
 
 // Color Tool
 #define ColorWithRGB(r, g, b) [UIColor colorWithRed: (r) / 255.0f green: (g) / 255.0f blue: (b) / 255.0f alpha:1.0]
