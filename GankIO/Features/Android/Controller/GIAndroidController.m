@@ -8,7 +8,6 @@
 
 #import "GIAndroidController.h"
 #import "PureLayout.h"
-#import "AFNetworking.h"
 
 @interface GIAndroidController ()
 
@@ -19,19 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-
-    
-    
-    
-    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    
-    NSString *urlStr = @"http://gank.io/api/data/Android/10/1";
-    
-    [manager GET:urlStr parameters:nil success:^(AFHTTPRequestOperation * _Nonnull operation, id  _Nonnull responseObject) {
-            
-    } failure:^(AFHTTPRequestOperation * _Nullable operation, NSError * _Nonnull error) {
-        
-    }];
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(50, 50, 100, 100)];
+    imageView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:imageView];
     
 }
 @end
