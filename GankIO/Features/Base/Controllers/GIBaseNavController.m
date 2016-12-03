@@ -7,7 +7,6 @@
 //
 
 #import "GIBaseNavController.h"
-#import "PureLayout.h"
 
 @interface GIBaseNavController ()
 
@@ -18,11 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationBar.barTintColor = ColorWithHexValue(HEX_NAVBAR);
-    self.navigationBar.tintColor = [UIColor whiteColor];
+    self.navigationBar.backgroundColor = ColorWithHexValue(HEX_NAVBAR);
+    
 }
 
-
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
 
 /*
 #pragma mark - Navigation

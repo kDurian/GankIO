@@ -27,16 +27,20 @@ PODS:
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
   - UITableView+FDTemplateLayoutCell (1.4)
-  - YYKit (1.0.9):
-    - YYKit/no-arc (= 1.0.9)
-  - YYKit/no-arc (1.0.9)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
 
 DEPENDENCIES:
   - AFNetworking (~> 2.6)
   - PureLayout
   - SDCycleScrollView (~> 1.64)
   - UITableView+FDTemplateLayoutCell (~> 1.4)
-  - YYKit
+  - YYWebImage
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
@@ -44,8 +48,10 @@ SPEC CHECKSUMS:
   SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
-  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 40c06392f88b4f3d4a10df439b94af89feb85cf5
+PODFILE CHECKSUM: 32d8417e1135efe5c94f78f198a375481fdec6c4
 
 COCOAPODS: 1.0.0
